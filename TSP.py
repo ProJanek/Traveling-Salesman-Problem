@@ -1,5 +1,3 @@
-"""Module with functions for Traveling Salesman Problem."""
-
 import numpy as np
 import math
 import matplotlib.collections as mc
@@ -91,7 +89,7 @@ def perturb_search(cities, itinerary):
 
 def simulated_annealing_v1(cities, itinerary, time):
     """
-    Find a itinerary using the perturbation search method 
+    Find a itinerary using the perturb search method 
     and the temperature function, which will allow to choose
     worse itinerary on the beginning - the goal is to find 
     the global maximum rather than the local maximum.
